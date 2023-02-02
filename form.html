@@ -1,0 +1,91 @@
+<html>
+<head>
+
+    <style> 
+       
+
+       #table{
+        width: 50px;
+        height: 100px;
+        background: rgb(35, 229, 243);
+        transition: width 2s;
+        margin: 100px;
+        padding-bottom: 50px;
+        color:rgb(14, 62, 165);
+        
+        background-color: aliceblue;
+        border:2px solid cornflowerblue;
+        border-style: dashed;
+        border-radius: 20px;
+      
+        border-color:lightskyblue;
+        font-family:Courier;
+        font-size: 120%;
+
+    }
+    div {
+        width: 60px;
+        height: 90px;
+        transition-property: width;
+        transition-duration: 10s;
+        transition-timing-function: linear;
+        transition-delay: 10s;
+      }
+              
+              button:hover {
+                width: 30px;
+                transform: rotate(90deg);
+              }
+
+
+        </style>
+</head>
+    <script>
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+<body>
+   
+    <form method="login.html">
+	    <table id="table" border="1" >
+		    <tr>
+        	    <td><strong>Name </strong></td>
+                <td><input type="text"></td>
+		    </tr>
+            <tr>
+        	    <td><strong>surname </strong></td>
+                <td><input type="text"></td>
+		    </tr>
+            <tr>
+        	    <td><strong>Gendar </strong></td>
+                <td>Male<input type="radio" name="gen"> Famale<input type="radio" name="gen"></td>
+		    </tr>
+		    <tr>
+        	    <td><strong>Address </strong></td>
+                <td><input type="text"></td>
+		    </tr>
+		    <tr>
+        	    <td><strong>Phone number </strong></td>
+                <td><input type="text"></td>
+		    </tr>
+          
+            <tr height="100px" > 
+            <div >
+            <td align="center" colspan="2" rowspan="2" > 
+                <button value="submit" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);">submit</button>
+            </td>
+            </div>  
+		    </tr>
+            <tr rowspan="2">
+
+            </tr>
+            <tr>
+        	    
+		    </tr>
+        
+
+        
+	    </table>
+    </form>
+
+</body>
+</html>
