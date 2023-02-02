@@ -1,0 +1,34 @@
+
+    table{
+        width: 50px;
+        height: 50px;
+        background: rgb(35, 229, 243);
+        transition: width 2s;
+        margin: 100px;
+        padding-bottom: 50px;
+        color:rgb(14, 62, 165);
+        
+        background-color: aliceblue;
+        border:2px solid cornflowerblue;
+        border-style: dashed;
+        border-radius: 20px;
+      
+        border-color:lightskyblue;
+        font-family:Courier;
+        font-size: 120%;
+
+    }
+    div {
+        width: 60px;
+        height: 30px;
+        transition-property: width;
+     
+        transition-duration: 200ms;
+        transition-timing-function: linear;
+        transition-delay: 10s;
+      }
+              
+              button:hover {
+                width: 30px;
+                transform: rotate(90deg);
+              }
